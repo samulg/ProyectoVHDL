@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec 13 16:44:23 2019
+# Process ID: 2516
+# Current directory: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13800 C:\Users\celia\Desktop\Archivo_Celia\ETSIDI\19-20\1cuatri\SED\TRABAJOS\VHDL\CLAVE_SECRETA_v2\CLAVE_SECRETA_v2.xpr
+# Log file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/vivado.log
+# Journal file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/schematic_v2_good.pdf
+set_property is_loc_fixed false [get_ports [list  clk reset start led_NOK mode {led[5]} {digsel[0]} {digsel[7]} {led[4]} {digsel[6]} {digsel[5]} {digsel[4]} {led[9]} {led[8]} {digsel[3]} {led[3]} {led[7]} {digsel[2]} {led[1]} {segment[6]} {pulsador[3]} {pulsador[4]} {segment[4]} {switch[2]} {switch[3]} {switch[4]} {segment[2]} {segment[0]} {segment[5]} {segment[1]} {pulsador[0]} {segment[3]} {switch[1]} {pulsador[2]} {switch[0]} {pulsador[1]} {digsel[1]} {led[0]} {led[2]} {led[6]} led_OK]]
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {digsel[7]} {digsel[6]} {digsel[5]} {digsel[4]} {digsel[3]} {digsel[2]} {digsel[1]} {digsel[0]}]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+close_design
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/impl_1/Clave_secret_v2.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/impl_1/Clave_secret_v2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Dec 12 17:37:47 2019
+# Process ID: 924
+# Current directory: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11828 C:\Users\celia\Desktop\Archivo_Celia\ETSIDI\19-20\1cuatri\SED\TRABAJOS\VHDL\CLAVE_SECRETA_v2\CLAVE_SECRETA_v2.xpr
+# Log file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/vivado.log
+# Journal file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 740.566 ; gain = 87.852
+update_compile_order -fileset sources_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu Dec 12 17:41:54 2019] Launched impl_1...
+Run output will be captured here: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 12 17:44:45 2019...

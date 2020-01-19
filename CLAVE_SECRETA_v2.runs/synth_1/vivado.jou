@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec 13 16:47:40 2019
+# Process ID: 1512
+# Current directory: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/synth_1
+# Command line: vivado.exe -log Clave_secret_v2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Clave_secret_v2.tcl
+# Log file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/synth_1/Clave_secret_v2.vds
+# Journal file: C:/Users/celia/Desktop/Archivo_Celia/ETSIDI/19-20/1cuatri/SED/TRABAJOS/VHDL/CLAVE_SECRETA_v2/CLAVE_SECRETA_v2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Clave_secret_v2.tcl -notrace
